@@ -1,0 +1,21 @@
+/*botão whatsapp*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+ }
+ html{
+     width: 100vw;
+     height: 100vh;
+     font-size: 62.5%;
+     overflow-x: hidden;
+ }
+
+ .cart{
+    margin-left: 150px;
+    border: 1px solid red;
+    height: 20vh;
+ }

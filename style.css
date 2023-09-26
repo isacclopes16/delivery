@@ -1,0 +1,399 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp{
+    margin-top: 16px;
+}
+/*botão whatsapp*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   border: none;
+   text-decoration: none;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+/*menu*/
+#logo img{
+    margin-top: none;
+    width: 60px;
+
+}
+
+#new-nav {
+    background-color: transparent !important;
+    border: none !important;
+  position: absolute;
+ display: flex;
+ margin-left: 20%;
+
+  }
+
+
+#new-nav{
+    font-size: 200%;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+
+    color: #ffc506;
+    background-color: transparent;
+    border: 1px solid #ffc506;
+  }
+.nav-item{
+    margin-left: 50%;
+}
+
+
+
+#navbarNavDropdown{
+text-align: center;
+margin-left: 20%;
+}
+.dropdown-item{
+    font-size: 20px;
+}
+
+#concluir-pedido{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 6px;
+    margin-top: -10px;
+    font-size: medium
+}
+#concluir-pedido:hover{
+    transform: scale(1.5);
+    color: black;
+}
+
+
+/*primeira seção*/
+
+.first-section{
+    background-image:url(./tapioca-capa.jpg);
+    background-position: center center;
+    background-size: cover;/*cobrir toda a tela*/
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: #ffc506;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.first-section h2{
+    color: rgb(177,177,177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.btn button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+}
+.btn button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+.btn{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*segunda parte*/
+.segundaparte{
+    background-image: url(./ft1.jpg);
+    background-position: center center;
+    background-size: cover;/*cobrir toda a tela*/
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 110vh;
+    width: 110vw;
+    display: flex;
+    flex-direction: column;}
+.segundaparte p img{
+    height: 30vh;
+    width: 25vw;
+    border-radius: 50%;
+}
+.cards{
+background-color: #FFFACD;
+
+width: 70vw;
+display: flex;
+margin-left: 130px;
+margin-top: 30px;
+transition: transform 0.3s ease; /* Define as transições suaves */
+border-radius: 47%;
+}
+
+
+.cards h3 {
+text-align: center;
+margin-top: 70px;
+font-size: px;
+
+}
+.cards:hover{
+    font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    transform: scale(1.2);
+}
+.adicionar{
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease
+}
+.adicionar:hover{
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+
+
+
+/*terceira parte*/
+
+.terceira-parte{
+   background-image: url(./backgroundnatural.jpg);
+   margin-top: 40px;
+   background-position: center center;
+   background-size: cover;/*cobrir toda a tela*/
+   background-repeat: no-repeat;
+   background-position-x: center;
+   height: 120vh;
+   width: 110vw;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+#sanduiche{
+    margin-top: 5px;
+   text-align: center;
+   font-size: 20px;
+   text-transform: uppercase;display: flex;
+   flex-direction: column;
+   margin-left: -150px;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+}
+
+.sd img{
+    width: 30vw;
+    background-color: transparent;
+}
+.sd  img:hover{
+        transform: scale(1.2);
+}
+
+.sd p{
+    margin-top: -50px;
+}
+
+.sd{
+    margin-top: 15px;
+}
+
+
+
+/*rodapé*/
+.rodape{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(177, 90, 28);
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+   
+}
+
+.rodape li svg{
+    width: 50px;
+}
+#mapa{
+    width: 30vw;
+    height: 10vh;
+    margin-left: 3%;
+}
+
+/*parte responsiva*/
+@media  (max-width:758px) {
+   
+body{
+    overflow-x: hidden;
+}
+  
+    html{
+        width: 100vw;
+        height: 100vh;
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+
+    #new-nav {
+        background-color: #ffc506 !important;
+        opacity: 50%;
+        border: none !important;
+      position: absolute;
+      width: 100%;  
+      font-size: large;
+      display: block;
+      margin: auto;
+      }
+
+
+    .conteudo-principal{
+        width: 50%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .btn{
+        width: auto;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -80px;
+    }
+   .btn .montar{
+    margin-top: 9px;
+   }    
+ /*segunda parte*/
+   .segundaparte p img{
+    width: 15vw;
+    height: 15vh;
+    margin-top: 60px;
+   }
+
+   .cards{
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    width: 95vw;
+    color: #d39625;
+    border-radius: 30%;
+    background-color: transparent;
+   
+   }
+/*terceita parte*/
+  
+.sd{
+    margin-left: 25%;
+}
+.sd p{
+    font-size: 15px;
+margin-right: 30px;
+}
+
+   .sd img{
+    align-items: center;
+    width: 50vw;
+   
+ }
+
+ .terceira-parte{
+    height: 60vh;
+
+ }
+ /*rodapé*/
+
+ .rodape{
+ display: none;
+ }
+
+#concluir-pedido{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+  
+}
+.adicionar{
+    color: #b36363;
+}
+
+.sd{
+    margin-top: 6px;
+}
+.sd p{
+  margin-top: -15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.p{
+    color: #f7ff06;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 100px;
+}
+.terceira-parte{
+    height: 75vh;
+}
+
+}
